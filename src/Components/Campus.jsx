@@ -1,0 +1,24 @@
+import React from 'react'
+import './Campus.css'
+import gallery_1 from '../assets/gallery-1.png'
+import gallery_2 from '../assets/gallery-2.png'
+import gallery_3 from '../assets/gallery-3.png'
+import gallery_4 from '../assets/gallery-4.png'
+import gallery_5 from '../assets/gallery-5.png'
+
+function Campus() {
+  return (
+    <div className='campus'>
+        <div className="gallery">
+            <img src={gallery_1} alt='gallery'/>
+            <img src={gallery_2} alt='gallery'/>
+            <img src={gallery_3} alt='gallery'/>
+            <img src={gallery_4} alt='gallery'/>
+            <img src={gallery_5} alt='gallery'/>
+        </div>
+        <button className='btn dark-btn'>See More</button>
+    </div>
+  )
+}
+
+export default Campus
