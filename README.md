@@ -1,16 +1,34 @@
-# React + Vite
+# Braines
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Braines is a responsive React web application designed to showcase a modern landing page with multiple sections such as Hero, About, Programs, Campus, Testimonials, Contact, and more. It demonstrates clean component-based architecture, reusable assets, and integration with external APIs for form handling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- Responsive UI built with React and CSS
+- Component-based structure (Navbar, Hero, Footer, Contact, etc.)
+- Contact form integration using `fetch` API with `FormData`
+- Asset management for icons and images
+- GitHub integration for version control
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
+src/ ├── assets/              # Static images/icons ├── Components/          # Reusable React components │    ├── About.jsx │    ├── Campus.jsx │    ├── Contact.jsx │    ├── Footer.jsx │    ├── Hero.jsx │    ├── Navbar.jsx │    ├── Programs.jsx │    ├── Testimonials.jsx │    └── Title.jsx ├── App.js               # Main app entry └── index.js             # React DOM render
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+🛠️ Technologies Used
+- React (Frontend framework)
+- CSS (Styling)
+- JavaScript (ES6+)
+- Git & GitHub (Version control)
+
+- 📌 Future Improvements
+- Add backend integration for contact form submissions
+- Enhance responsiveness with advanced CSS frameworks (e.g., Tailwind or Bootstrap)
+- Deploy to a hosting service (Netlify, Vercel, or GitHub Pages)
+
+👨‍💻 Author
+Developed by Brian Karania
+GitHub: briankarania67 (github.com )
